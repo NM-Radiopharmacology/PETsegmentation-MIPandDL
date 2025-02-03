@@ -11,7 +11,8 @@ Please, be aware to use the model specific for your task, or [18F]FDG PET/CT or 
 You will first need and assure that the [nnU-Net required libraries](https://github.com/MIC-DKFZ/nnUNet) and configure required paths.
 
 ### 2. Download weights : 
-Weights can be downloaded at the following [link](https://drive.google.com/drive/u/0/folders/1T02D1G6igx9eaFcgxzG0y0QBdp7Qg2gF).
+- Weights from the [18F]FDG model can be downloaded at the following [link](https://drive.google.com/drive/u/0/folders/1T02D1G6igx9eaFcgxzG0y0QBdp7Qg2gF).
+- Weights from the [68Ga]Ga-PSMA model can be downloaded at the following [link]
 
 ### 3. Inference :
 For [18F]FDG PET/CT scans, only PET (one-channel) should be provided, since since the inclusion of low-dose CT as a second channel does not improve significantly the segmentation results (Constantino et al, In: Annual Congress of the European Association of Nuclear Medicine, 2023).
