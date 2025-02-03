@@ -30,7 +30,7 @@ To obtain the 3D-MIP-based DL segmentation, follow the next steps for 3D-MIP gen
 One again, be aware to use the model specific for your task, or [18F]FDG PET/CT or [68Ga]Ga-PSMA lesions segmentation. 
 
 ### 1. 3D-MIP generation : 
-A c++ code was used for this step. The respective code is in the file "    ". 
+A c++ code was used for this step. The respective code is in the file "3D-MIP_Computation.cpp". 
 
 ### 2. 3D-MIP segmentation : 
 3D-MIP DL segmentation also uses nnU-Net framework. Follow similar steps as explained above in "Standard-DL-based segmentation" section. 
