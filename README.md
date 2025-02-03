@@ -37,12 +37,12 @@ A c++ code was used for this step. The respective code is in the file "3D-MIP_Co
 Instead, load the weights related with FDG 3D-MIP model (download:     ) or PSMA 3D-MIP model (download:      ). 
 
 ### 3. Post-processing reconstruction  :
-The post-processing reconstruction code that uses the 3D-MIP segmentation mask and reconstructs it to the 3D PET space is in the file "        ".
+The post-processing reconstruction code that uses the 3D-MIP segmentation mask and reconstructs it to the 3D PET space is in the file "BackProjection_Reconstruction.cpp".
 
 
 ## Standard-DL + MIP-DL-based segmentation (combined approach)
 To incorporate the advantages of MIP images to easily identify regions of higher metabolic uptake, a pipeline combining results from standard-DL-based and MIP-DL-based segmentations was built. The code is in the file " ". 
 
 
-
-Please contact the corresponding author Cláudia S. Constantino for more details if needed (claudia.constantino@fundacaochampalimaud.pt).
+##     
+>> Please contact the corresponding author Cláudia S. Constantino for more details if needed (claudia.constantino@fundacaochampalimaud.pt).
