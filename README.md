@@ -23,3 +23,25 @@ In the PATH_FOLDER every patients should be numbered as patientID_0000 for CT an
 
 Then, from the terminal type:
 nnUNet_predict -i PATH_FOLDER -o ./PATH_OUTPUT -t 1
+
+
+## 3D-MIP-based DL segmentation 
+To obtain the 3D-MIP-based DL segmentation, follow the next steps for 3D-MIP generation, 3D-MIP segmentation, and post-processing reconstruction to the PET space.
+One again, be aware to use the model specific for your task, or [18F]FDG PET/CT or [68Ga]Ga-PSMA lesions segmentation. 
+
+### 1. 3D-MIP generation : 
+A c++ code was used for this step. The respective code is in the file "    ". 
+
+### 2. 3D-MIP segmentation : 
+3D-MIP DL segmentation also uses nnU-Net framework. Follow similar steps as explained above in "Standard-DL-based segmentation" section. 
+Instead, load the weights related with FDG 3D-MIP model (download:     ) or PSMA 3D-MIP model (download:      ). 
+
+### 3. Post-processing reconstruction  :
+The post-processing reconstruction code that uses the 3D-MIP segmentation mask and reconstructs it to the 3D PET space is in the file "        ".
+
+
+## Standard-DL + MIP-DL-based segmentation (combined approach)
+To incorporate the advantages of MIP images to easily identify regions of higher metabolic uptake, a pipeline combining results from standard-DL-based and MIP-DL-based segmentations was built. The code is in the file " ". 
+
+
+
