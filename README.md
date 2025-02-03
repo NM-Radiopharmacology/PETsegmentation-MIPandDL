@@ -45,3 +45,4 @@ To incorporate the advantages of MIP images to easily identify regions of higher
 
 
 
+Please contact the corresponding author Cláudia S. Constantino for more details if needed (claudia.constantino@fundacaochampalimaud.pt).
