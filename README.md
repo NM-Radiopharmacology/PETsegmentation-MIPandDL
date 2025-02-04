@@ -41,7 +41,7 @@ The post-processing reconstruction code that uses the 3D-MIP segmentation mask a
 
 
 ## Standard-DL + MIP-DL-based segmentation (combined approach)
-To incorporate the advantages of MIP images to easily identify regions of higher metabolic uptake, a pipeline combining results from standard-DL-based and MIP-DL-based segmentations was built. The code is in the file " ". 
+To incorporate the advantages of MIP images to easily identify regions of higher metabolic uptake, a pipeline combining results from standard-DL-based and MIP-DL-based segmentations was built. The code is in the file "Intersection_CombinedApproach.cpp". 
 
 
 ##     
