@@ -12,7 +12,7 @@ You will first need and assure that the [nnU-Net required libraries](https://git
 
 ### 2. Download weights : 
 - Weights from the [18F]FDG model can be downloaded at the following [link](https://drive.google.com/drive/folders/1QJX99kDs9RuBX0JT3XeQycvQNLlZsVcr?usp=drive_link).
-- Weights from the [68Ga]Ga-PSMA model can be downloaded at the following [link]().
+- Weights from the [68Ga]Ga-PSMA model can be downloaded at the following [link](https://drive.google.com/drive/folders/18akh9ceE8rXUsQadFZEaJgLybG1dhGcJ?usp=drive_link).
 
 ### 3. Inference :
 For [18F]FDG PET/CT scans, only PET (one-channel) should be provided, since since the inclusion of low-dose CT as a second channel does not improve significantly the segmentation results (Constantino et al, In: Annual Congress of the European Association of Nuclear Medicine, 2023).
@@ -34,7 +34,7 @@ A c++ code was used for this step. The respective code is in the file "3D-MIP_Co
 
 ### 2. 3D-MIP segmentation : 
 3D-MIP DL segmentation also uses nnU-Net framework. Follow similar steps as explained above in "Standard-DL-based segmentation" section. 
-Instead, load the weights related with FDG 3D-MIP model (download:     ) or PSMA 3D-MIP model (download:      ). 
+Instead, load the weights related with FDG 3D-MIP model (download [here](https://drive.google.com/drive/folders/1BTADZMazhAIH-AVAviGf7BMY-Z8t1vTX?usp=drive_link)) or PSMA 3D-MIP model (download [here](https://drive.google.com/drive/folders/1zqGjgYwnzLjVA45rjbZAoLIEliFgdDEI?usp=drive_link)). 
 
 ### 3. Post-processing reconstruction  :
 The post-processing reconstruction code that uses the 3D-MIP segmentation mask and reconstructs it to the 3D PET space is in the file "BackProjection_Reconstruction.cpp".
