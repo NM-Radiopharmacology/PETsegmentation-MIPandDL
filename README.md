@@ -1,5 +1,6 @@
 # PETsegmentation-MIPandDL
 This repository contains the code and models to obtain fully automatic segmentation of lesions avid for [18F]FDG and [68Ga]Ga-PSMA in PET/CT using MIPs and DL.
+The results of these models are reported in Constantino et al, JNM (2025) - in revision. 
 
 This is a step-by-step guide to achieve standard-DL-based segmentation, 3D-MIP-DL-based segmentation and further results with a combined approach (standard-DL+MIP-DL-based). 
 
